@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Batstore 🦇</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar fadeInDown">
+      <div class="logo">
+        <a href="index.html"><img src="img/logo-batman.png" alt="logo"></a>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="faqs.html">Faqs</a></li>
+          <li><a href="productos.html">Productos</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="pago-form fadeIn">
+    <div class="tarjeta">
+      <img src="img/batarang.webp" alt="Batarang" class="batarang">
+      <h2>Batarang Batman</h2>
+      <h3>$100.000 COP</h3>
+    </div>
+    <div class="formulario">
+      <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6YYAED5LQYQ82" method="POST">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" class="data">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" class="data">
+        <label for="phone">Telefono</label>
+        <input type="text" name="phone" class="data">
+        <label for="address">Dirección</label>
+        <input type="text" name="address" class="data">
+        <input type="submit" class="boton" name="submit" value="Confirmar pago">
+      </form>
+    </div>
+  </div>
+
+
+  <footer>
+    <h3>Desarrollado por: Sebastián Obando</h3>
+    <h3>Contacto: contacto@desarrollo.com</h3>
+  </footer>
+</body>
+</html>
