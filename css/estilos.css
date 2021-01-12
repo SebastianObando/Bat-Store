@@ -212,7 +212,7 @@ form .boton {
   
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .container-tajetas, .container-personas {
     display: block;
   }
