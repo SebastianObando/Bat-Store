@@ -191,7 +191,7 @@ form .boton {
   margin-top: 20px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 767px) {
   .hero img {
     height: 150px;
   }
@@ -212,7 +212,7 @@ form .boton {
   
 }
 
-@media (max-width: 321px) {
+@media (max-width: 320px) {
   .container-tajetas, .container-personas {
     display: block;
   }
